@@ -13,30 +13,31 @@ create table Company(
 	AuthorizeCellPhoneMessages bit,
 	AuthorizeEmailMessages bit
 )
-
---insert into Company values
---(
---'NIT',
---900674336,
---'Sony',
---'Dereck',
---'Alexander',
---'Gonzalez',
---'Aguilera',
---'hnaguilera0310@gmail.com',
---0,
---1
---)
---insert into Company values
---(
---'NIT',
---811033098,
---'Walmart',
---'Haiver',
---'Nicolás',
---'Aguilera',
---'Gómez',
---'hnaguilera0310@gmail.com',
---1,
---0
---)
+GO
+insert into Company values
+(
+'NIT',
+900674336,
+'Sony',
+'Dereck',
+'Alexander',
+'Gonzalez',
+'Aguilera',
+'hnaguilera0310@gmail.com',
+0,
+1
+)
+GO
+insert into Company values
+(
+'NIT',
+811033098,
+'Walmart',
+'Haiver',
+'Nicolás',
+'Aguilera',
+'Gómez',
+'hnaguilera0310@gmail.com',
+1,
+0
+)
