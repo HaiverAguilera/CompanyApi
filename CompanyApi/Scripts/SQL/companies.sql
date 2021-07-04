@@ -1,3 +1,5 @@
+create database Companies
+GO
 create table Company(
 	Id int primary key identity (1, 1) not null,
 	IdentificationType varchar(50) not null,
